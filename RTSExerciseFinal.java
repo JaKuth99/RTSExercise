@@ -1,6 +1,6 @@
 import java.util.*;
-public class RTSExercise {
-  HashMap<String, Integer> aboveBelow(ArrayList unsortNum, int compNum){
+public class RTSExerciseFinal {
+  HashMap<String, Integer> aboveBelow(ArrayList<Integer> unsortNum, int compNum){
     int above = 0;
     int below = 0;
     HashMap<String, Integer> aboveBelow = new HashMap<String, Integer>();
